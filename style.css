@@ -39,6 +39,7 @@ header {
 
 .portfolio-item{
   border: 1px solid #444;
+  margin: 40px;
   padding: 20px;
   background-color: #050010e3;
 }
