@@ -83,10 +83,13 @@ footer {
 
 @media (max-width: 480px){
    #portfolio {
-     grid-template-columns: 1fr;
-  }
-  body{
-	  margin: 40px;
+     grid-template-column: 1fr;
+   }
+}
+@media (min-width: 480px){
+   body {
+     padding: 40px;
+   }
 }
 section{
      margin: 50px auto auto auto;
