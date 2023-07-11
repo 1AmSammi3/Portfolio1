@@ -32,7 +32,7 @@ header {
 /* Portfolio section styles */
 #portfolio {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 20px;
   margin-bottom: 40px;
 }
@@ -81,18 +81,16 @@ footer {
   --animate-duration: 1s;
 }
 
-@media screen and (max-width: 480px){
-   #portfolio {
-     grid-template-column: 1fr;
-   }
-  section{
-     margin: 100px auto auto auto;
-  }
-}
 @media screen and (min-width: 480px){
    body {
      padding: 40px;
    }
+   #portfolio {
+     grid-template-columns: repeat(2, 1fr);
+   }
+   section{
+     margin: 100px auto auto auto;
+  }
 }
 section{
      margin: 50px auto auto auto;
