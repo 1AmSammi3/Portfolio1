@@ -92,7 +92,10 @@ footer {
      margin: 100px auto auto auto;
   }
   h1, h2, h3 {
-	  font-size: 50%;
+	  font-size: 80%;
+  }
+  p{
+	  font-size: 80%;
   }
 }
 section{
