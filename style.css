@@ -81,10 +81,13 @@ footer {
   --animate-duration: 1s;
 }
 
-@media (max-width: 480px){
+@media screen and (max-width: 480px){
    #portfolio {
      grid-template-column: 1fr;
    }
+  section{
+     margin: 100px auto auto auto;
+  }
 }
 @media screen and (min-width: 480px){
    body {
